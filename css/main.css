@@ -49,7 +49,8 @@
 }
 @media (max-width:767px) {
     .sidebar h2::before,
-    .sidebar h2::after {
+    .sidebar h2::after,
+    .sidebar h2 {
         display: none;
     }
     .sidebar h2 {
@@ -57,8 +58,9 @@
         margin-bottom: 10px;
     }
     .sidebar {
-        width: fit-content;
-        padding: 10px;
+        padding: 0;
+        width: 47px;
+        margin-left: -10px;;
     }
     .sidebar ul li a {
         padding-bottom: 10px;
